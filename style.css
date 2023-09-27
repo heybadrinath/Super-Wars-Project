@@ -1,0 +1,29 @@
+
+  
+  img {
+    height: 6rem;
+  }
+  
+  .heroes,
+  .villians {
+    border: 2px solid rgb(137, 137, 137);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  
+  .grid_box {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  p,
+  h1 {
+    text-align: center;
+  }
+  
