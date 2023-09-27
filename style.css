@@ -1,29 +1,37 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
 
-  
-  img {
-    height: 6rem;
-  }
-  
-  .heroes,
-  .villians {
-    border: 2px solid rgb(137, 137, 137);
-    border-radius: 10px;
-    margin: 10px;
-  }
-  
-  #grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
-  }
-  
-  .grid_box {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  p,
-  h1 {
-    text-align: center;
-  }
-  
+body{
+  border: 10vh solid rgb(168, 168, 168);
+
+}
+
+img {
+  height: 6rem;
+}
+
+.heroes,
+.villians {
+  border: 2px solid rgb(137, 137, 137);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr );
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid_box {
+  display: flex;
+  flex-direction: row;
+}
+
+p,
+h1 {
+  text-align: center;
+}
